@@ -1,0 +1,38 @@
+# env
+.env
+.env.local
+.env.*.local
+
+# node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.pnpm-store/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.python-version
+
+# generated assets
+seed/
+*.gif.tmp
+.palette.png
+
+# generated reports (may contain absolute filesystem paths)
+*-report.json
+order-map.json
+
+# editors
+.vscode/
+.idea/
+*.swp
+
+# os
+.DS_Store
+Thumbs.db

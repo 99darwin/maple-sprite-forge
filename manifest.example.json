@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "frame": {
+    "width": 256,
+    "height": 256,
+    "anchor": { "x": 128, "y": 240 }
+  },
+  "archetypes": {
+    "mage": {
+      "idle": "archetypes/mage/idle",
+      "walk_side": "archetypes/mage/walk_side",
+      "cast": "archetypes/mage/cast",
+      "jump": "archetypes/mage/jump",
+      "hit": "archetypes/mage/hit",
+      "attack_primary": "archetypes/mage/attack_primary"
+    },
+    "ranger": {
+      "idle": "archetypes/ranger/idle",
+      "walk_side": "archetypes/ranger/walk_side",
+      "cast": "archetypes/ranger/cast",
+      "jump": "archetypes/ranger/jump",
+      "hit": "archetypes/ranger/hit",
+      "attack_primary": "archetypes/ranger/attack_primary"
+    },
+    "warrior": {
+      "idle": "archetypes/warrior/idle",
+      "walk_side": "archetypes/warrior/walk_side",
+      "cast": "archetypes/warrior/cast",
+      "jump": "archetypes/warrior/jump",
+      "hit": "archetypes/warrior/hit",
+      "attack_primary": "archetypes/warrior/attack_primary"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "maple-sprite-forge",
+  "version": "0.1.0",
+  "description": "A chained-model pipeline for generating Maple-like 2.5D pixel sprite sheets.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "scripts": {
+    "nano-banana": "node scripts/nano-banana-edit.mjs",
+    "grid-to-strip": "node scripts/grid-to-strip.mjs",
+    "normalize": "node scripts/normalize-strip.mjs",
+    "contact": "node scripts/contact-sheet.mjs",
+    "gif": "node scripts/render-gif.mjs",
+    "qc": "node scripts/qc.mjs",
+    "pixel-engine": "node scripts/pixel-engine.mjs",
+    "cyan-clean": "node scripts/cyan-clean.mjs",
+    "flood-clear": "node scripts/flood-clear.mjs",
+    "stabilize-height": "node scripts/stabilize-height.mjs",
+    "reorder": "node scripts/reorder-frames.mjs"
+  },
+  "dependencies": {
+    "@fal-ai/client": "^1.6.0",
+    "sharp": "^0.33.5"
+  }
+}
