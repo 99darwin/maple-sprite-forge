@@ -2,9 +2,9 @@
 
 8-frame one-shot primary attack, generated as a **4×2 grid** (not a
 horizontal strip). Goes through `nano-banana-edit.mjs` with
-`--aspect-ratio 1:1 --resolution 1K`, then through
-`grid-to-strip.mjs --columns 4 --rows 2 --inset 0` before the chroma
-helper.
+`--aspect-ratio 4:3 --resolution 1K` (which returns a 1200×896 image with
+300×448 cells), then through `grid-to-strip.mjs --columns 4 --rows 2
+--inset 0` before the chroma helper.
 
 Why a grid: Nano Banana 2 rejects 6-frame strips outright, and on 8-frame
 horizontal strips it spreads poses across uneven slot boundaries. The 4×2

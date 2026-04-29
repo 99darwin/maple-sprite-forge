@@ -102,7 +102,7 @@ Aspect ratio by frame count:
 | 1 | `1:1` | jump |
 | 4 | `4:1` | idle, cast, hit |
 | 8 | `8:1` | walk_side |
-| 8 (4×2 grid) | `1:1` | attack_primary — use grid-to-strip.mjs after |
+| 8 (4×2 grid) | `4:3` | attack_primary — returns 1200×896, use grid-to-strip.mjs after |
 
 The script writes `strip-green.png` and `strip-green.png.json`. The JSON
 contains the fal request id; keep it for reproducibility.

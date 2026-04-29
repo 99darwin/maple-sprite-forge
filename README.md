@@ -107,7 +107,7 @@ Every approved frame:
 | cast | 4 | 4:1 | one-shot |
 | jump | 1 | 1:1 | held pose |
 | hit | 4 | 4:1 | one-shot |
-| attack_primary | 8 | 1:1 (4×2 grid) | one-shot |
+| attack_primary | 8 | 4:3 (4×2 grid) | one-shot |
 
 ## Common gotchas
 
