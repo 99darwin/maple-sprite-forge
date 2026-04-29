@@ -17,6 +17,18 @@ six animations (idle, walk_side, cast, jump, hit, attack_primary), the
 exact prompts, every script, and a long list of the failure modes that
 shaped the workflow.
 
+|         | mage | ranger | warrior |
+| ------- | :--: | :----: | :-----: |
+| walk    | ![](examples/archetypes/mage/walk_side.gif)      | ![](examples/archetypes/ranger/walk_side.gif)      | ![](examples/archetypes/warrior/walk_side.gif)      |
+| attack  | ![](examples/archetypes/mage/attack_primary.gif) | ![](examples/archetypes/ranger/attack_primary.gif) | ![](examples/archetypes/warrior/attack_primary.gif) |
+| hit     | ![](examples/archetypes/mage/hit.gif)            | ![](examples/archetypes/ranger/hit.gif)            | ![](examples/archetypes/warrior/hit.gif)            |
+| cast    | ![](examples/archetypes/mage/cast.gif)           | ![](examples/archetypes/ranger/cast.gif)           | ![](examples/archetypes/warrior/cast.gif)           |
+| idle    | ![](examples/archetypes/mage/idle.gif)           | ![](examples/archetypes/ranger/idle.gif)           | ![](examples/archetypes/warrior/idle.gif)           |
+
+The walk loops were polished through Pixel Engine; everything else is
+direct Nano Banana 2 output after chroma cleanup and normalization. See
+`examples/archetypes/` for the full set.
+
 > Article: TODO(article-url) — write-up of why this pipeline exists and
 > what each model is doing.
 
@@ -35,9 +47,8 @@ shaped the workflow.
 - A simplified manifest schema separating "frames this repo produces"
   from "runtime layers your game cares about"
 
-The example archetypes ship as placeholder directories under `examples/`.
-Reference outputs (PNGs and GIFs) will be added there once the public
-pipeline runs end-to-end.
+Reference GIFs for all three archetypes are in `examples/archetypes/`,
+one per animation, produced by the same pipeline this repo describes.
 
 ## Prerequisites
 
