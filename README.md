@@ -29,8 +29,9 @@ The walk loops were polished through Pixel Engine; everything else is
 direct Nano Banana 2 output after chroma cleanup and normalization. See
 `examples/archetypes/` for the full set.
 
-> Article: TODO(article-url) — write-up of why this pipeline exists and
-> what each model is doing.
+## Motivation
+
+You can read my motivation for creating this project in [this article](https://x.com/nicky_sap/status/2049541531896524840)
 
 ## What you get
 
