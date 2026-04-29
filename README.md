@@ -52,7 +52,7 @@ pipeline runs end-to-end.
 ## Quick start
 
 ```bash
-git clone <this-repo>
+git clone https://github.com/99darwin/maple-sprite-forge.git
 cd maple-sprite-forge
 cp .env.example .env
 # fill in FAL_API_KEY and PIXEL_ENGINE_API_KEY
